@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!--BEGIN HEADER-->
+    <header class="header">
+        <div class="backdrop"></div>
+        <div class="container">
+            <img src="img/logo.svg" alt="logo">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link">Пункт 1</a>
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">Подпункт 1</li>
+                            <li class="sub-menu__item">Подпункт 2</li>
+                            <li class="sub-menu__item">Подпункт 3</li>
+                            <li class="sub-menu__item">Подпункт 4</li>
+                            <li class="sub-menu__item">Подпункт 5</li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link">Пункт 2</a>
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">Подпункт 1</li>
+                            <li class="sub-menu__item">Подпункт 2</li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link">Пункт 3</a>
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">Подпункт 1</li>
+                            <li class="sub-menu__item">Подпункт 2</li>
+                            <li class="sub-menu__item">Подпункт 3</li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link">Пункт 4</a>
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">Подпункт 1</li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link">Пункт 5</a>
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">Подпункт 1</li>
+                            <li class="sub-menu__item">Подпункт 2</li>
+                            <li class="sub-menu__item">Подпункт 3</li>
+                            <li class="sub-menu__item">Подпункт 4</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--END HEADER-->
+    <!--BEGIN SLIDER-->
+    <section class="slider">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/slide.png" alt="slide_01">
+                    <span>Слайд 1</span>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide.png" alt="slide_01">
+                    <span>Слайд 2</span>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide.png" alt="slide_01">
+                    <span>Слайд 3</span>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+    <!--END SLIDER-->
+    <!--BEGIN FAQ-->
+    <section class="faq container">
+        <h2 class="faq__title title">FAQ</h2>
+        <div class="faq__accordion accordion">
+            <h4 class="accordion__title">Как добраться до музея</h4>
+            <p class="accordion__content">В Национальный музей Республики Татарстан можно добраться общественным транспортом:1) «Станция метро «Кремлевская», а затем по направлению к Кремлю пройдя 5 минут пешком;</p>
+            <h4 class="accordion__title">Есть ли поблизости удобная паркова</h4>
+            <p class="accordion__content">Да</p>
+            <h4 class="accordion__title">Можно ли воспользоваться аудиогидом</h4>
+            <p class="accordion__content">Нет</p>
+        </div>
+    </section>
+    <!--END FAQ-->
+    <!--BEGIN NEWS SECTION-->
+    <section class="news container">
+        <h2 class="news__title title">Новости</h2>
+        <div class="news__container">
+            <div class="news-item">
+                <img src="img/01.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="img/02.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="img/03.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="img/04.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="img/05.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="img/06.png" alt="">
+                <div class="news-item__description">
+                    <h3 class="news-item__title">Заголовок</h3>
+                    <p class="news-item__subtiitle">Описание Описание Описание Описание</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END NEWS SECTION-->
+    <!--BEGIN SUBSCRIBE FORM-->
+    <section class="subscribe">
+        <div class="container">
+            <h2 class="title">Подпишись</h2>
+            <h4 class="subscribe__subtitle">Отправляем анонсы новых статей, выпусков и трансляций</h4>
+            <form action="#" id="form" class="subscribe__form">
+                <div class="subscribe__form__body">
+                    <div class="subscribe__form__wrapper">
+                            <input class="subscribe-input" name="email" type="email" placeholder="Email"/>
+                            <input class="subscribe-input" name="phone-number" type="tel" maxlength="18" placeholder="Телефон"/>
+                    </div>
+                    <div class="subscribe__form__wrapper">
+                        <input class="subscribe-input" name="date" type="text" maxlength="10" placeholder="11.02.2022"/>
+                        <input class="subscribe-input" name="time" type="datetime" maxlength="5" placeholder="15:00"/>    
+                    </div>
+                </div>
+                <button id="submit">Подписаться</button>
+            </form>
+        </div>
+    </section>
+    <!--END SUBSCRIBE FORM-->
+    <!--BEGIN FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__about">
+                <h4 class="footer__title">Заголовок</h4>
+                <p class="footer__description">Описание Описание Описание Описание Описание</p>
+                <a href="#">500na700.ru</a>
+            </div>
+            <ul class="footer__link-list">
+                <li class="footer__link-item"><img src="img/vk-icon.svg" alt="vk"></li>
+                <li class="footer__link-item"><img src="img/fb-icon.svg" alt="fb"></li>
+                <li class="footer__link-item"><img src="img/tiktok-icon.svg" alt="tiktiok"></li>
+                <li class="footer__link-item"><img src="img/youtube-icon.svg" alt="youtube-icon"></li>
+            </ul>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
