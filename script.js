@@ -117,6 +117,7 @@ function show(target) {
         burgerMenu.classList.add(setActiveClass(burgerMenu.className))
         document.body.classList.add("active")
     }
+    console.log(target.nextElementSibling.scrollHeight)
     target.nextElementSibling.style.setProperty("height", target.nextElementSibling.scrollHeight + "px")
     target.classList.add(setActiveClass(target.className)) 
 }

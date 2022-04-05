@@ -159,17 +159,20 @@ header {
         position: absolute;
         top: 8rem;
         left: 0;
-        padding-left: calc(5vw + 42px + 12.5rem);
+        padding-left: calc(max(5vw, (100vw - 1920px)/2) + 42px + 12.5rem);
         width: 100%;
         height: 0;
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        max-height: 10.5rem;
+        align-content: start;
+        max-height: 10.51rem;
         transition: height 0.3s ease-out;
     }
-    .sub-menu__item { padding: 1rem 0; }
+    .sub-menu__item { 
+        padding: 1rem 0;
+        width: 250px;
+    }
     .backdrop {
         background-color: rgba(0, 0, 0, 0.5);
         position: absolute;
@@ -187,6 +190,7 @@ header {
     }
     .menu__link_active + .sub-menu__list {
         height: auto;
+        flex-wrap: wrap;
     }
 }
 
