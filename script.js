@@ -50,7 +50,7 @@ function addListenerToInput(target, listener) {
 function validateInput(validateFunction) {
     return function(e) {
         if (!validateFunction(e.target.value) && e.target.value)
-        e.target.classList.add("invalid")
+            e.target.classList.add("invalid")
     }
 }
 
@@ -78,7 +78,7 @@ function formSend(e) {
         }, 1000);
     } else {
         validateEmail(emailInput.value) == false ? emailInput.classList.add("invalid") : null
-        validatePhone([phoneInput].value) == false ? phoneInput.classList.add("invalid") : null
+        validatePhone(phoneInput.value) == false ? phoneInput.classList.add("invalid") : null
     }
 }
 
