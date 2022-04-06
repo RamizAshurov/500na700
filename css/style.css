@@ -288,7 +288,7 @@ header .menu__link_active + .sub-menu__list {
 
 .news__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
   gap: 1rem;
   justify-items: center;
 }
