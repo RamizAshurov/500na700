@@ -258,7 +258,7 @@ header .menu__link_active + .sub-menu__list {
 }
 .faq__title {
   flex-basis: 30%;
-  margin-right: 1.5rem;
+  margin-right: 4.15rem;
 }
 .faq .accordion {
   border-top: 1px solid white;
